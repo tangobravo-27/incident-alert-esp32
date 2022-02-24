@@ -17,4 +17,4 @@ body:
     attributes:
       label: Tasks
       description: List the tasks belonging to this epic by referencing the task (e.g. #480)
-      value: - [ ] New Task
+      value: [ ] New Task
