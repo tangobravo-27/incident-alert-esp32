@@ -12,9 +12,9 @@ body:
       value: "Description here please."
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: epic-tasks
     attributes:
-      value: |
-        ### Tasks:
-        The following tasks are included in this epic:
-        - [ ] Put issue title here or select an existing one using the issue number (e.g. #480)
+      label: Tasks
+      description: List the tasks belonging to this epic by referencing the task (e.g. #480)
+      value: - [ ] New Task
