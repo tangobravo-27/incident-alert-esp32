@@ -8,7 +8,7 @@ body:
     attributes:
       label: Epic Issue Description
       description: Please enter the detailed description of the high level issue including answering what we are solving, why we are solving it and any contstraints.
-      placeholder: ""
+      placeholder: "Description here please."
       value: "Description here please."
     validations:
       required: true
