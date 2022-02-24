@@ -1,0 +1,20 @@
+name: Epic Template For SRE Project Work
+description: A template to use when creating an Epic type of issue.
+title: "[Epic]: "
+labels: ["Epic", "triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Epic Issue Description
+      description: Please enter the detailed description of the high level issue including answering what we are solving, why we are solving it and any contstraints.
+      placeholder: ""
+      value: "Description here please."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Tasks:
+        The following tasks are included in this epic:
+        - [ ] Put issue title here or select an existing one using the issue number (e.g. #480)
