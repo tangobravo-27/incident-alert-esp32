@@ -18,5 +18,6 @@ body:
       label: Tasks
       description: List the tasks belonging to this epic by referencing the issue (e.g. '#480')
       placeholder: "- [ ] New Task"
-      value: "The following tasks are included in this epic:" \
+      value: |
+             "The following tasks are included in this epic:"
              "- [ ] New Task"
