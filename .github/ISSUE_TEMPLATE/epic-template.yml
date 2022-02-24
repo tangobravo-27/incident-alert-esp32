@@ -16,6 +16,6 @@ body:
     id: epic-tasks
     attributes:
       label: Tasks
-      description: List the tasks belonging to this epic by referencing the task (e.g. #480)
+      description: List the tasks belonging to this epic by referencing the task (e.g. '#480')
       placeholder: "- [ ] New Task"
       value: "- [ ] New Task"
